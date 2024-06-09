@@ -66,8 +66,8 @@
 					<label for="password">Password:</label>
 					<input type="password" name="password" class="form-control" required>
 				</div>
-				<button type="submit" name="login" class="btn btn-primary">Login</button> |
-				<a href="signup.php"> Not registered yet ?</a>	
+				<button type="submit" name="login" class="btn btn-primary">Login</button> 
+				<!-- <a href="signup.php"> Not registered yet ?</a>	 -->
 			</form>
             <?php 
 				if(isset($_POST['login'])){

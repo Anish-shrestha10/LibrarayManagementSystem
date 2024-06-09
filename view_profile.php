@@ -12,14 +12,14 @@
 	while ($row = mysqli_fetch_assoc($query_run)){
 		$name = $row['name'];
 		$email = $row['email'];
-		$mobile = $row['mobile'];
+		
 		$address = $row['address'];
 	}
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>User Dashboard</title>
+	<title>User Profile Detail</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap-4.4.1/css/bootstrap.min.css">
   	<script type="text/javascript" src="bootstrap-4.4.1/js/juqery_latest.js"></script>
   	<script type="text/javascript" src="bootstrap-4.4.1/js/bootstrap.min.js"></script>
@@ -83,10 +83,7 @@
 						<label for="email">Email:</label>
 						<input type="text" value="<?php echo $email;?>" class="form-control" disabled>
 					</div>
-					<!-- <div class="form-group">
-						<label for="mobile">Mobile:</label>
-						<input type="text" value="<?php echo $mobile;?>" class="form-control" disabled>
-					</div> -->
+					
 					<div class="form-group">
 						<label for="address">Address:</label>
 						<input type="text" value="<?php echo $address;?>" class="form-control" disabled>
