@@ -6,7 +6,6 @@
 	$name = "";
 	$email = "";
 	$password = "";
-	$mobile = "";
 	$address = "";
 	$query = "select * from users";
 ?>
@@ -102,6 +101,7 @@
 						<tr>
 							<th>Name</th>
 							<th>Email</th>
+							<th>ID</th>
 							<th>Address</th>
 						</tr>
 				
@@ -110,12 +110,13 @@
 						while ($row = mysqli_fetch_assoc($query_run)){
 							$name = $row['name'];
 							$email = $row['email'];
+							$id=$row['id'];
 							$address = $row['address'];
 					?>
 						<tr>
 							<td><?php echo $name;?></td>
 							<td><?php echo $email;?></td>
-							
+							<td><?php echo $id;?></td>
 							<td><?php echo $address;?></td>
 						</tr>
 					<?php
