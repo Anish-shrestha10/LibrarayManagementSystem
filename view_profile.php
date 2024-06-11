@@ -12,7 +12,6 @@
 	while ($row = mysqli_fetch_assoc($query_run)){
 		$name = $row['name'];
 		$email = $row['email'];
-		
 		$address = $row['address'];
 	}
 ?>
