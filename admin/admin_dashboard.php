@@ -24,9 +24,6 @@
 		width: 300px;
 		height: 450px;
 	}
-	/* marquee{
-		color:white;
-	} */
 </style>
 <body >
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -83,7 +80,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 	<div class="row">
 		<div class="col-md-3" style="margin: 0px">

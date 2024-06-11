@@ -15,11 +15,6 @@
   			window.location.href = "admin_dashboard.php";
   		}
   	</script>
-    <!-- <style type="text/css">
-	div,h4,marquee{
-		color:white;
-	}
-</style> -->
 </head>
 <body >
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -75,7 +70,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 		<center><h4>Issue Book</h4><br></center>
 		<div class="row">

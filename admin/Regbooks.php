@@ -31,9 +31,6 @@
 		width: 300px;
 		height: 450px;
 	}
-	/* div,h4,marquee{
-		color:white;
-	} */
 	tr{
 		border: solid black;
 	}
@@ -93,7 +90,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 	<center><h4>Total Books Available </h4><br></center>
 		<div class="row">

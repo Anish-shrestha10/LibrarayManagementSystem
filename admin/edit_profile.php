@@ -22,11 +22,6 @@
 	<link rel="stylesheet" type="text/css" href="../bootstrap-4.4.1/css/bootstrap.min.css">
   	<script type="text/javascript" src="../bootstrap-4.4.1/js/juqery_latest.js"></script>
   	<script type="text/javascript" src="../bootstrap-4.4.1/js/bootstrap.min.js"></script>
-	  <!-- <style type="text/css"  >
-		div,h4,marquee{
-		color:white
-	}
-	</style> -->
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -53,7 +48,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 		<center><h4>Edit Profile</h4><br></center>
 		<div class="row">
@@ -68,10 +62,6 @@
 						<label for="email">Email:</label>
 						<input type="text" name="email" class="form-control" value="<?php echo $email;?>">
 					</div>
-					<!-- <div class="form-group">
-						<label for="mobile">Mobile:</label>
-						<input type="text" name="mobile" class="form-control" value="<?php echo $mobile;?>">
-					</div> -->
 					<button type="submit" name="update" class="btn btn-primary">Update</button>
 				</form>
 			</div>

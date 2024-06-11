@@ -16,9 +16,7 @@
   	<script type="text/javascript" src="bootstrap-4.4.1/js/juqery_latest.js"></script>
   	<script type="text/javascript" src="bootstrap-4.4.1/js/bootstrap.min.js"></script>
     <style type="text/css">
-	/* div,h4,marquee{
-		color:white;
-	} */
+	
 		table,tr{
 			border : 2px solid black;
 		}
@@ -50,7 +48,7 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
+
 	<br><br>
     <center><h4>Issued Book's Detail</h4><br></center>
 		<div class="row">

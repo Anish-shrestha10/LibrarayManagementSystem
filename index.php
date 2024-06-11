@@ -49,7 +49,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee text="white" >Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 
 	<div class="row">
@@ -68,7 +67,6 @@
 					<input type="password" name="password" class="form-control" required>
 				</div>
 				<button type="submit" name="login" class="btn btn-primary">Login</button> 
-				<!-- <a href="signup.php"> Not registered yet ?</a>	 -->
 			</form>
             <?php 
 				if(isset($_POST['login'])){

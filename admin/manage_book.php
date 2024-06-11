@@ -12,7 +12,6 @@
 	while ($row = mysqli_fetch_assoc($query_run)){
 		$name = $row['name'];
 		$email = $row['email'];
-		// $mobile = $row['mobile'];
 	}
 ?>
 <!DOCTYPE html>
@@ -27,10 +26,6 @@
 	table,tr,th,td{
 		border: 2px solid black;
 	}
-	/* div,h4,marquee,th,td{
-		color:white;
-	} */
-
 </style>
 <body >
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -87,7 +82,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 	<center><h4>Manage Books</h4><br></center>
 		<div class="row">
@@ -98,7 +92,7 @@
 						<tr>
 							<th>Name</th>
 							<th>Category</th>
-							<!-- <th>ISBN No.</th> -->
+							<th>Book_No</th>
 							<th>Price</th>
 							<th>Action</th>
 						</tr>
@@ -113,7 +107,7 @@
 							<tr>
 								<td><?php echo $row['book_name'];?></td>
 								<td><?php echo $row['cat_id'];?></td>
-								<!-- <td><?php echo $row['book_no'];?></td> -->
+								<td><?php echo $row['book_no'];?></td>
 								<td><?php echo $row['book_price'];?></td>
 								<td><button class="btn" name=""><a href="edit_book.php?bn=<?php echo $row['book_no'];?>">Edit</a></button>
 								<button class="btn" ><a href="delete_book.php?bn=<?php echo $row['book_no'];?>">Delete</a></button></td>

@@ -28,9 +28,6 @@
 		width: 300px;
 		height: 450px;
 	}
-	/* div,h4,marquee{
-		color:white;
-	} */
 	table,tr,th,td{
 		border: 2px solid black;
 	}
@@ -90,7 +87,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 	<center><h4>Registered Category</h4><br></center>
 		<div class="row">

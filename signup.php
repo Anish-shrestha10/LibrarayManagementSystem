@@ -45,7 +45,7 @@
     </div>
     </nav>
     <br>
-    <!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
+
 	<br>
     <div class="row">
 		<div class="col-md-4" id="side_bar">
@@ -66,10 +66,7 @@
 					<label for="password">Password:</label>
 					<input type="password" name="password" class="form-control" required>
 				</div>
-                <!-- <div class="form-group">
-					<label for="mobile">Mobile Number:</label>
-					<input type="int" name="mobile" class="form-control" required>
-				</div> -->
+
                 <div class="form-group">
 					<label for="name">Address:</label><br>
 					<textarea cols="40" rows="3" name="address" class="fornm-control" ></textarea>

@@ -35,9 +35,7 @@
 	tr{
 		border: 2px solid black;
 	}
-	/* div,h4,marquee{
-		color:white;
-	} */
+	
 </style>
 <body >
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -94,7 +92,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 	<center><h4>Registered Users Detail</h4><br></center>
 		<div class="row">
@@ -104,7 +101,6 @@
 					<table class="table-bordered" width="900px" style="text-align: center">
 						<tr>
 							<th>Name</th>
-							<!-- <th>Mobile</th> -->
 							<th>Email</th>
 							<th>Address</th>
 						</tr>
@@ -113,7 +109,6 @@
 						$query_run = mysqli_query($connection,$query);
 						while ($row = mysqli_fetch_assoc($query_run)){
 							$name = $row['name'];
-							// $mobile = $row['mobile'];
 							$email = $row['email'];
 							$address = $row['address'];
 					?>

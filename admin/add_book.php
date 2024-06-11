@@ -12,7 +12,6 @@
 	while ($row = mysqli_fetch_assoc($query_run)){
 		$name = $row['name'];
 		$email = $row['email'];
-		// $mobile = $row['mobile'];
 	}
 ?>
 <!DOCTYPE html>
@@ -30,11 +29,6 @@
   		}
   	</script>
 </head>
-<!-- <style type="text/css">
-	div,h4,marquee{
-		color:white;
-	}
-	</Style> -->
 <body >
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
@@ -89,7 +83,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
 		<center><h4>Add a new Book</h4><br></center>
 		<div class="row">

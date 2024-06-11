@@ -12,7 +12,6 @@
 	while ($row = mysqli_fetch_assoc($query_run)){
 		$name = $row['name'];
 		$email = $row['email'];
-		// $mobile = $row['mobile'];
 	}
 ?>
 <!DOCTYPE html>
@@ -23,11 +22,6 @@
   	<script type="text/javascript" src="../bootstrap-4.4.1/js/juqery_latest.js"></script>
   	<script type="text/javascript" src="../bootstrap-4.4.1/js/bootstrap.min.js"></script>
 </head>
-<!-- <style type="text/css">
-	div,h4,marquee{
-		color:white;
-	}
-</style> -->
 <body >
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<div class="container-fluid">
@@ -83,7 +77,6 @@
 		    </ul>
 		</div>
 	</nav><br>
-	<!-- <span><marquee>Library opens at 8:00 AM and close at 5:00 PM</marquee></span> -->
 	<br><br>
     <center><h4>Add a new Category</h4><br></center>
 		<div class="row">
